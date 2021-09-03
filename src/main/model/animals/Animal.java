@@ -28,6 +28,7 @@ public class Animal implements AnimalInterface {
     @Override
     public void eat() {
         System.out.println(this.name + "...is eating");
+        this.setHungry(true);
     }
 
     @Override
