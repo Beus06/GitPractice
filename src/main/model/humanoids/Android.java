@@ -6,7 +6,7 @@ public class Android extends Humanoid {
 
 
 
-    
+
     public double getVersion() {
         return version;
     }
