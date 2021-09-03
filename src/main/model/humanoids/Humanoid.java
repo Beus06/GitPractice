@@ -4,6 +4,7 @@ import main.model.Gender;
 import main.model.animals.Animal;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Humanoid implements HumanoidInterface {
@@ -65,17 +66,20 @@ public class Humanoid implements HumanoidInterface {
 
     @Override
     public void getNewPet(Animal animal) {
-        // TODO
+
+       this.petsOwned.add(animal);
+
     }
 
     @Override
     public void feedPets() {
-        // TODO
+        for ( int i =0; i < this.petsOwned.size(); i++)
+       this.petsOwned.get(i).eat();
     }
 
     @Override
     public void renamePet(Animal animal, String newName) {
-        // TODO
+        animal.setName(newName);
     }
 
 }
