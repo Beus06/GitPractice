@@ -27,17 +27,17 @@ public class Animal implements AnimalInterface {
 
     @Override
     public void eat() {
-        // TODO
+        System.out.println(this.name + "...is eating");
     }
 
     @Override
     public void makeSound() {
-        // TODO
+        System.out.println(this.name + "...makes sound");
     }
 
     @Override
     public void play() {
-        // TODO
+        System.out.println(this.name + "...destroys your slippers");
     }
 
     public String getName() {
