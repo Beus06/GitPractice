@@ -1,9 +1,9 @@
 package main.model;
 
 public enum Food {
-    stuffed_cabbage,
-    stuffed_cabbage_with_paprika,
+    transylvanian_stuffed_cabbage,
+    hungarian_stuffed_cabbage,
     stuffed_cabbage_with_mushroom,
-    stuffed_cabbage_the_ultimate
+    the_ultimate_stuffed_cabbage
 
 }
