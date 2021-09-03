@@ -15,10 +15,8 @@ public class Humanoid implements HumanoidInterface {
     protected boolean isSad;
     protected Gender gender;
 
-
-    }
-
     protected List<Animal> petsOwned;
+
 
     public Humanoid() {}
 
@@ -75,7 +73,7 @@ public class Humanoid implements HumanoidInterface {
         this.gender = gender;
     }
 
-    
+
     @Override
     public void getNewPet(Animal animal) {
 
